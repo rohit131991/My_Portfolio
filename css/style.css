@@ -13,17 +13,17 @@ height: 100%;
 
 /*Start Navigation*/
 .header_area .main-menu .navbar{
-    padding: 2rem 10rem;
+    padding: 1rem 10rem;
     position: sticky;
 }
 
 .header_area .main-menu .navbar .navbar-brand{
-    font-family: felix titling, serif;
+    
     font-size: 30px;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font:normal bolder 15px/5px felix titling, serif;
+    font:normal bolder 15px/5px times new roman;
     text-transform: uppercase;
     padding: 1rem;
     color:black;
@@ -47,18 +47,18 @@ height: 100%;
 
 /* Banner Area */ 
 .site-main .site-banner {
-    background:turquoise;
+    background-image: url(../images/bannerbck.jpg);
 }
 
 .site-main .site-banner .site-title h1 > span{
-    color: white;
+    color: black;
     display: block;
     font: normal bold 49px/ 60px;
     letter-spacing: 21px;
     
 }
 .site-main .site-banner .site-title h3{
-    color: white;
+    color: black;
     font-size: 2.0rem;
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
