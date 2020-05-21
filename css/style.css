@@ -1,0 +1,142 @@
+
+/*import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+*
+body{
+padding:0;
+margin:0;
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+}
+
+/*Start Navigation*/
+.header_area .main-menu .navbar{
+    padding: 2rem 10rem;
+    position: sticky;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    font-family: felix titling, serif;
+    font-size: 30px;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font:normal bolder 15px/5px felix titling, serif;
+    text-transform: uppercase;
+    padding: 1rem;
+    color:black;
+    float: right;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: rgb(22, 33, 255);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/*End Navigation*/
+
+/* Banner Area */ 
+.site-main .site-banner {
+    background:turquoise;
+}
+
+.site-main .site-banner .site-title h1 > span{
+    color: white;
+    display: block;
+    font: normal bold 49px/ 60px;
+    letter-spacing: 21px;
+    
+}
+.site-main .site-banner .site-title h3{
+    color: white;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 3%;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 2rem 0;
+    width: 90rem;
+}
+
+/* Buttons */ 
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px felix titling, serif;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background: blue;
+    background-clip: padding-box;
+    color: white;
+    transition: 0.3s ease;
+    box-shadow: black;
+    border-radius: 4px;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: blue;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: blue;
+    background-clip: padding-box;
+    transition: 0.3s ease;
+    color: white;
+    box-shadow: black;
+}
+
+.button.secondary-button:hover{
+    background: whitesmoke;
+    color: blue;
+    background-clip: padding-box;
+}
+/*Buttons*/
+
+/* End Banner Area */ 
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 0rem 0rem;
+    background-image: url(../images/body.png);
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px;
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
