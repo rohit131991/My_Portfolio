@@ -14,6 +14,7 @@ height: 100%;
 /*Start Navigation*/
 .header_area .main-menu .navbar{
     padding: 1rem 10rem;
+    position: -webkit-sticky;
     position: sticky;
 }
 
@@ -47,14 +48,16 @@ height: 100%;
 
 /* Banner Area */ 
 .site-main .site-banner {
-    background-image: url(../images/bannerbck.jpg);
+    background-image: url(../images/body.png);
+    padding: 3%%
 }
 
-.site-main .site-banner .site-title h1 > span{
+.site-main .site-banner .site-title h2 > span{
     color: black;
     display: block;
     font: normal bold 49px/ 60px;
     letter-spacing: 21px;
+    border: 15px black;
     
 }
 .site-main .site-banner .site-title h3{
@@ -67,32 +70,33 @@ height: 100%;
 
 .site-main .site-banner .banner-image > img{
     padding: 2rem 0;
-    width: 90rem;
+    width: 80%;
 }
 
 /* Buttons */ 
 
 .button{
     padding: .8rem 2.2rem;
-    font: normal 500 16px/20px felix titling, serif;
+    font: bold 500 16px/20px;
     position: relative;
-    border: 3px solid transparent;
+    border: 3px solid;
     border-radius: 4px;
 }
 
 .button.primary-button{
-    background: blue;
+    background: turquoise;
     background-clip: padding-box;
     color: white;
     transition: 0.3s ease;
     box-shadow: black;
-    border-radius: 4px;
+    border-radius: 25px;
+    font-weight: bolder;
 }
 
 .button.primary-button:hover{
     background: whitesmoke;
     background-clip: padding-box;
-    color: blue;
+    color: turquoise;
 }
 
 .button.primary-button::after, .button.secondary-button::after{
@@ -105,7 +109,7 @@ height: 100%;
 }
 
 .button.secondary-button{
-    background: blue;
+    background: turquoise;
     background-clip: padding-box;
     transition: 0.3s ease;
     color: white;
@@ -124,7 +128,7 @@ height: 100%;
 /* Start About Area */ 
 
 .site-main .about-area{
-    padding: 0rem 0rem;
+    padding: 3rem 5rem;
     background-image: url(../images/body.png);
 }
 
@@ -137,6 +141,9 @@ height: 100%;
 .site-main .about-area .about-title .paragraph > p{
     padding: .4rem 0;
 }
+.site-main .about-area .about-image{
+    width: 50rem;
+
+}
 
 /* End About Area */ 
-
