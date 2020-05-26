@@ -13,8 +13,9 @@ height: 100%;
 
 /*Start Navigation*/
 .header_area .main-menu .navbar{
-    background: transparent;
+    
     margin: 0rem 0rem;
+    background-image: url(../images/bodayimage.jpg);
 }
 
 .header_area .main-menu .navbar .navbar-brand div{
@@ -24,11 +25,12 @@ height: 100%;
     font-weight: bolder;
     color: black;
     background-color: transparent;
-        width: 238px;
-        border: 5px solid grey;
-        padding: 5px;
-        margin: 20px;
-    
+    border: 5px solid grey;
+    padding: 5px;
+    margin: 20px;  
+}
+.header_area .main-menu .navbar .navbar-brand:hover{
+    transform: scale(1.1);
 }
 
 .header_area .main-menu .nav-item .nav-link{
@@ -52,6 +54,7 @@ height: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    transform: scale(1.1);
 }
 /*End Navigation*/
 
@@ -69,36 +72,50 @@ height: 100%;
     display: block;
     font: normal bold 49px/ 60px;
     letter-spacing: 21px;
-    border: 15px black;
-    
+    border: 15px black;    
 }
+.site-main .site-banner .site-title h2:hover{
+    transform: scale(1.1);
+}
+
 .site-main .site-banner .site-title .para{
     color: rgb(158, 158, 158);
-
+}
+.site-main .site-banner .site-title .para:hover{
+    transform: scale(1.1);
 }
 .site-main .site-banner .banner-image > img{
     margin-top: 0%;
     width: 75%;
-
 }
+.site-main .site-banner .banner-image > img:hover{
+    transform: scale(1.1);
+}
+
 /* End Banner Area */ 
 
-/*start expertise area*/
+/*start project area*/
 
-.site-main .expertise-area{
+.site-main .project-area{
     padding: 7rem 2rem;
+    background-image: url(../images/bodyimage.jpg);
 }
 
-.site-main .expertise-area .expertise-title{
-    padding: 0 12rem;
+.site-main .project-area .project-title{
+    padding: 0 0rem;
+    border: 2px solid grey;
 }
 
-.site-main .expertise-area .expertise-title h1{
+.site-main .project-area .project-title:hover{
+    transform: scale(1.1);
+}
+
+.site-main .project-area .project-title h1{
     font-size: 35px;
-    letter-spacing: 15px;
+    letter-spacing: 21px;
 }
 
-.site-main > .expertise-area .expertise{
+.site-main > .project-area .project{
     padding: 2rem 0;
     width: 15rem;
     margin: 5rem .5rem;
@@ -106,11 +123,48 @@ height: 100%;
 
 }
 
-.site-main > .expertise-area .expertise:hover{
+.site-main > .project-area .project:hover{
     background: rgb(206,162,6);
     color: whitesmoke;
 }
-/*end expertise area*/
+/*end project area*/
+
+
+/*start contact area*/
+
+.site-main .contact-area{
+    padding: 2rem 2rem;
+    background: rgb(7, 40, 64);
+}
+
+.site-main .contact-area .contact-title{
+    padding: 0 12rem;
+}
+
+.site-main .contact-area .contact-title h1{
+    font-size: 35px;
+    letter-spacing: 15px;
+    color: whitesmoke;
+}
+
+.site-main > .contact-area .contact{
+    padding: 2rem 0;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    color: white;
+    background: transparent;
+    
+
+}
+.site-main > .contact-area .contact:hover{
+    background: rgb(206, 163, 6);
+    color: whitesmoke;
+    box-shadow: 10px 30px rgba(255, 255, 255, 0.205);
+    transform: scale(1.1);
+}
+/*end contact area*/
+
+
 
 /* Footer Area */ 
 
@@ -132,7 +186,8 @@ footer.footer-area .social a > i{
 }
 
 footer.footer-area .social a:hover > i{
-    color: var(--primary-color);
+    color: rgb(7, 40, 64);
+    transform: scale(2.2);
 }
 
 
